@@ -1,0 +1,39 @@
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #2E2E3A; /* Darker slate-blue */
+    border-right: 1px solid #4A4A6A;
+}
+[data-testid="stSidebar"] .st-emotion-cache-16txtl3 {
+    color: #FFFFFF; /* White text for sidebar title */
+}
+/* Radio button styling for navigation */
+div[role="radiogroup"] > label > div:first-child {
+    font-size: 1.1rem !important;
+    color: #A0A0B0 !important; /* Lighter gray for options */
+}
+/* Highlight selected radio button */
+div[role="radiogroup"] label[data-baseweb="radio"] > div:first-child > div > p {
+    font-weight: bold;
+    color: #FFFFFF !important;
+}
+/* Main content styling */
+body {
+    background-color: #1A1A2A; /* Very dark blue background */
+}
+.st-emotion-cache-16txtl3 {
+    color: #E0E0E0; /* Light gray text for headers */
+}
+/* Metric styling */
+[data-testid="stMetric"] {
+    background-color: #2E2E3A;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #4A4A6A;
+}
+[data-testid="stMetricLabel"] {
+    color: #A0A0B0; /* Lighter gray for metric labels */
+}
+[data-testid="stMetricValue"] {
+    color: #FFFFFF; /* White for metric values */
+}

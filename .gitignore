@@ -1,0 +1,27 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+venv/
+
+# Ignore model artifacts if not needed in repo
+model/*.pkl
+model/*.joblib
+
+# Ignore environment & dependency files (optional)
+.env
+*.env
+
+# Ignore logs, temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
