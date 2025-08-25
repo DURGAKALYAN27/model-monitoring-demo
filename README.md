@@ -1,7 +1,7 @@
 # ML Model Monitoring Dashboard Demo
 
 1. Create a virtual environment -
-   - python -m venv venv
+   - py -m venv venv
    - .\venv\Scripts\activate
   
 2. Install dependencies -
